@@ -1,0 +1,67 @@
+/* ---------------------------------------------------
+/////////////////// IMPORT SASS /////////////////////
+---------------------------------------------------- */
+
+@charset 'utf-8';
+// Variables, Normalize, Colors, Typo ...
+@import "base/functions";
+@import "base/vars";
+@import "base/normalize";
+@import "base/typography";
+
+// Layout
+
+// Components
+
+// Modules
+
+/* ---------------------------------------------------
+/////////////////////// GLOBAL ////////////////////////
+---------------------------------------------------- */
+
+$dark: #4C4D7A;
+$cream: #F7F7FB;
+$text: #9394AB;
+
+body{ 
+    background-color: $dark; 
+    color:$text;
+    @extend %PoppinsRegular;
+}
+main{
+    width:1024px;
+    height:100%;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    background-color: $cream;
+}
+
+h2{
+    color: $dark;
+    @include fontsize(24);
+}
+
+h3{
+    color: $dark;
+    @include fontsize(18); 
+} 
+
+p{
+    @include fontsize(16);
+    line-height:1.4;
+}
+
+.btn-primary{
+    background-color:$dark;
+    padding:.5rem 1rem;
+    @include fontsize(14);
+    color:#fff;
+}
+
+
+// Content
+main{
+    padding: 4rem;
+}
+
