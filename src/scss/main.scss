@@ -68,12 +68,12 @@ main{
 }
 
 .content{
-    & h2{ margin-bottom:2rem; }
-    & > p{ margin-top:2rem; text-align:center; }
+    & > span{ display:block; text-align:center; @include fontsize(14); }
     & .cards{
         display: flex; 
         justify-content: space-between;
         align-items: center;
+        margin:2rem 0 1rem;
 
         // In item
         &__item{
