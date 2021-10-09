@@ -3,6 +3,9 @@
 	-webkit-padding-start: 0px;
 }
 
+$dark: #4C4D7A;
+$cream: #F7F7FB;
+$text: #9394AB;
 
 html{
 	/* font-size: 100%; */
@@ -60,4 +63,14 @@ a:active,
 a:hover {
 	outline: 0;
 	outline-width: 0;
+}
+
+pre{ 
+	background-color:rgba($text, .2);
+	border-radius:10px;
+	padding:.4rem;
+	display:inline-block;
+	color:red;
+	font-size:16px;
+	vertical-align: middle;
 }
