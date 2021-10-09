@@ -19,15 +19,11 @@
 /////////////////////// GLOBAL ////////////////////////
 ---------------------------------------------------- */
 
-$dark: #4C4D7A;
-$cream: #F7F7FB;
-$text: #9394AB;
-
-
 body{ 
-    background-color: $dark; 
+    background: rgb(25,96,60);
+    background: linear-gradient(219deg, rgba(25,96,60,1) 0%, rgba(12,112,128,1) 100%);
     color:$text;
-    @extend %PoppinsRegular;
+    @include font-face(PoppinsRegular, fonts/PoppinsRegular);
 }
 main{
     width:1024px;
