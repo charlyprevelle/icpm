@@ -20,14 +20,12 @@
 /////////////////////// GLOBAL ////////////////////////
 ---------------------------------------------------- */
 
-$dark: #4C4D7A;
-$cream: #F7F7FB;
-$text: #9394AB;
+
 
 body{ 
     background-color: $dark; 
     color:$text;
-    @extend %PoppinsRegular;
+    @include font-face(PoppinsRegular, fonts/Samplino);
 }
 main{
     width:1024px;
@@ -65,8 +63,6 @@ p{
 main{
     padding: 4rem;
 }
-
-
 
 table, tr, td{
     border: 1px solid black;
