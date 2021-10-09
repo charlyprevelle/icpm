@@ -2,8 +2,8 @@
 Fonts
 ---------------------------------------------*/
 
-@include font-face(PoppinsRegular, assets/fonts/PoppinsRegular);
-
-%PoppinsRegular{ font-family: "Poppins"; font-weight:400; }
-
+@font-face {
+	font-family: "PoppinsRegular";
+	src: url("assets/fonts/PoppinsRegular.ttf") format("truetype")
+}
 
