@@ -25,7 +25,8 @@ $cream: #F7F7FB;
 $text: #9394AB;
 
 body{ 
-    background-color: $dark; 
+    background: rgb(25,96,60);
+    background: linear-gradient(219deg, rgba(25,96,60,1) 0%, rgba(12,112,128,1) 100%);
     color:$text;
     @extend %PoppinsRegular;
 }
@@ -59,7 +60,6 @@ p{
     @include fontsize(14);
     color:#fff;
 }
-
 
 // Content
 main{
