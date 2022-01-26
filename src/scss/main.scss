@@ -116,9 +116,6 @@ main{ padding: 4rem; }
         .cards{
             &__item{ 
                 width: 100%;
-                &:nth-of-type(2){
-                    margin-right: 0;
-                }
             }
         }
     }
